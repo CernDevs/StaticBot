@@ -5,7 +5,9 @@ import os, sys
 description = "Hi, this is a bot."
 extensions = (
     'cogs.basic',
-    'cogs.info'
+    'cogs.info',
+    'cogs.fflogs',
+    'cogs.static'
 )
 
 class StaticBot(commands.AutoShardedBot):
